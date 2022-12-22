@@ -16,30 +16,36 @@ for (let i = 0; i < buttons.length; i++) {
     
    function elegirAudio(letra) {
    switch (letra) {
-    case "l":
+            case "I":
         const audioElement1 = new Audio("sounds/crash.mp3");
             audioElement1.play();
             break;
-            case "o":
+
+            case "l":
         const audioElement2 = new Audio("sounds/kick-bass.mp3");
             audioElement2.play();
             break;
-            case "v":
+
+            case "o":
         const audioElement3 = new Audio("sounds/snare.mp3");
             audioElement3.play();
             break;
-            case "e":
+
+            case "v":
         const audioElement4 = new Audio("sounds/tom-1.mp3");
             audioElement4.play();
             break;
-            case "y":
+
+            case "e":
          const audioElement5 = new Audio("sounds/tom-2.mp3");
             audioElement5.play();
             break;
-            case "o":
+
+            case "y":
          const audioElement6 = new Audio("sounds/tom-3.mp3");
             audioElement6.play();
             break;
+
             case "u":
          const audioElement7 = new Audio("sounds/tom-4.mp3");
             audioElement7.play();
